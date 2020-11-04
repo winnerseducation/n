@@ -40,75 +40,6 @@
             localStorage.removeItem('gmtNightMode')
           })
         </script>
-        <style>
-          input {
-            position: absolute;  
-            opacity: 0;
-            margin-top: 95vh;
-            cursor: pointer;
-          }
-
-          label {
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            border: solid 2px white;
-            border-radius: 999px;
-            background-color: transparent;
-            margin: 95vh 6px 0 6px;
-            z-index: 2;
-            cursor: pointer;
-            transition-duration: .4s;
-          }
-
-          input:checked + label{
-            background-color: white;
-          }
-
-          input:focus + label{
-            box-shadow: 0 0 0 2px teal, 0 0 18px white;
-          }
-
-          .slide {
-            position: absolute;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: -1;
-            transform: translateX(-100%);
-            transition-duration: .4s;
-            opacity: 1;
-          }
-
-          input:checked ~ .slide {
-            transform: translateX(100%);
-          }
-
-          input:checked + label + .slide {
-            transform: translateX(0);
-            opacity: 1;
-          }
-
-          .bg1{
-            background-image: url(https://images.unsplash.com/photo-1422806310414-91469fe4977e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=114e7a73b2385128045a5555b981e939);
-          }
-          .bg2{
-            background-image: url(https://images.unsplash.com/photo-1490020641477-3b0e96306b9a?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=d8358f021c68f49335fe44b10f70b700);
-          }
-          .bg3{
-            background-image: url(https://images.unsplash.com/photo-1512529111457-3e8a595ef8e9?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=9b3ab76b65a358830d60ca43be76f2e1);
-          }
-          .bg4{
-            background-image: url(https://images.unsplash.com/photo-1504700610630-ac6aba3536d3?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=92d2cae094fb24e5266221828ee251e2);
-          }
-          .bg5{
-            background-image: url(https://images.unsplash.com/reserve/wPCyys8TPCHY3GXm2N2D_ssp_inthewoods_1.jpg?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=654d988a19f43ca9ac27f2eacbe2a554);
-          }
-        </style>
     </head>
     <body>
       <div id="popup-wp" class="popup-wp">
@@ -152,8 +83,68 @@
                 </div>
             </div>
 
-            <div class="module-1"> 
-          </div>
+            <div class="module-1">
+                <div class="div-slider">
+                    <ul class="slides-front">
+                      <input type="radio" name="radio-btn" id="img-1" checked="">
+                      <li class="slide-container">
+                      <div class="slide" id="s1">
+                            <div class="img-box-1"align="center">
+                                <h1>Sistema de ensino com qualidade<br/> e unificado</h1>
+                                <p>Nosso sistema de ensino possui uma alta abrangência com as disciplinas,<br/> 
+                                em adição, incluimos o pacote WinnersPRO, elevando o conhecimento e<br/>
+                                impulsionando o aluno para o mercado de trabalho.</p>
+                            </div>
+                          </div>
+                      <div class="nav">
+                        <label for="img-4" class="prev">‹</label>
+                        <label for="img-2" class="next">›</label>
+                      </div>
+                      </li>
+                  
+                      <input type="radio" name="radio-btn" id="img-2">
+                      <li class="slide-container">
+                          <div class="slide" id="s2">
+                            <div class="img-box-2"></div>
+                          </div>
+                      <div class="nav">
+                        <label for="img-1" class="prev">‹</label>
+                        <label for="img-3" class="next">›</label>
+                      </div>
+                      </li>
+                  
+                      <input type="radio" name="radio-btn" id="img-3">
+                      <li class="slide-container" id="s3">
+                          <div class="slide">
+                            <div class="img-box-3"></div>
+                          </div>
+                      <div class="nav">
+                        <label for="img-2" class="prev">‹</label>
+                        <label for="img-4" class="next">›</label>
+                      </div>
+                      </li>
+
+                      <input type="radio" name="radio-btn" id="img-4">
+                      <li class="slide-container" id="s4">
+                          <div class="slide">
+                            <div class="img-box-4"></div>
+                          </div>
+                      <div class="nav">
+                        <label for="img-3" class="prev">‹</label>
+                        <label for="img-1" class="next">›</label>
+                      </div>
+                      </li>
+                      
+                  
+                      <li class="nav-dots">
+                        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                        <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                      </li>
+                    </ul>
+                  </div>   
+            </div>
             <div class="module-2">
               <div class="align-sub-mdl-2">
                 <div class="sub-mdl-2-1">
