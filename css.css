@@ -186,7 +186,7 @@ li.item-p-i:hover{
     width: 420PX;
     height: 490PX;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .txt-signin{font-family: 'montserrat',sans-serif;font-size: 25pt;margin: 15% 0px 15% 0px;}
 .box-log{
@@ -311,7 +311,7 @@ input:focus{
     padding-left: 10px;
 }
 .div-map iframe{
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .map-gle{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -533,7 +533,7 @@ input#img-3:checked ~ .nav-dots label#img-dot-3{
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .sub-mdl-2-1{
     width: 50%;
@@ -546,7 +546,7 @@ input#img-3:checked ~ .nav-dots label#img-dot-3{
     background-color: rgb(0, 0, 0);
     background-size: 600px;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .sub-mdl-2-1 h1{
     font-family: 'montserrat', sans-serif;
@@ -825,7 +825,7 @@ i:hover{
     background: #ffffff;
     z-index: 999999;
     display: none;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 0px 40px rgb(0, 0, 0,0.3);
 }
 .popup-wp a{
@@ -856,7 +856,7 @@ i:hover{
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .sub-mdl-wp-s-1{
     width: 50%;
@@ -885,7 +885,7 @@ i:hover{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 /*FUNDAMENTAL II PAGE*/
 .popup-ef2{
@@ -899,7 +899,7 @@ i:hover{
     background: #ffffff;
     z-index: 999999;
     display: none;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 0px 40px rgb(0, 0, 0,0.3);
   }
   .popup-ef2 a{
@@ -930,7 +930,7 @@ i:hover{
     justify-content: center;
     align-items: center;
     background-color: rgb(245, 245, 245);
-    border-radius: 10px;
+    border-radius: 15px;
     border-left: 5px solid rgb(255, 0, 0);
 }
 .sub-mdl-ef2-s-1{
@@ -961,7 +961,7 @@ i:hover{
     background-size: cover;
     background-position-x: center;
     background-position-y: 394px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 /*MÉDIO PAGE*/
 .popup-em{
@@ -975,7 +975,7 @@ i:hover{
     background: #ffffff;
     z-index: 999999;
     display: none;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 0px 40px rgb(0, 0, 0,0.3);
 }
 .popup-em a{
@@ -1006,7 +1006,7 @@ i:hover{
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 60);
-    border-radius: 10px;
+    border-radius: 15px;
     border-left: 5px solid rgb(255, 0, 0);
 }
 .sub-mdl-em-s-1{
@@ -1035,7 +1035,7 @@ i:hover{
     background-size: cover;
     background-position-x: center;
     background-position-y: 376px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 /*PILARES*/
 .module-pl-1,.module-pl-3{
@@ -1055,7 +1055,7 @@ i:hover{
     justify-content: center;
     align-items: center;
     background-color: rgb(245, 245, 245);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .sub-mdl-pl-1-1,.sub-mdl-pl-3-1{
     width: 50%;
@@ -1095,7 +1095,7 @@ i:hover{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .sub-mdl-pl-3-2{
     width: 50%;
@@ -1105,7 +1105,7 @@ i:hover{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .module-pl-2{
     background-color: rgb(255, 255, 255);
@@ -1124,7 +1124,7 @@ i:hover{
     justify-content: center;
     align-items: center;
     background-color: rgb(245, 245, 245);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .sub-mdl-pl-2-1{
     width: 50%;
@@ -1165,7 +1165,7 @@ i:hover{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    border-radius: 10px;
+    border-radius: 15px;
     float: left;
 }
 /*PROJETOS*/
@@ -1186,7 +1186,7 @@ i:hover{
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .sub-mdl-pj-1-1,.sub-mdl-pj-3-1{
     width: 50%;
@@ -1217,7 +1217,7 @@ i:hover{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .sub-mdl-pj-3-2{
     width: 50%;
@@ -1226,7 +1226,7 @@ i:hover{
     background-size: 500px 350px;
     background-position-x: center;
     background-position-y: center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .module-pj-2,.module-pj-4{
     background-color: rgb(255, 255, 255);
@@ -1245,7 +1245,7 @@ i:hover{
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .sub-mdl-pj-2-1,.sub-mdl-pj-4-1{
     width: 50%;
@@ -1276,7 +1276,7 @@ i:hover{
     background-size: 500px 300px;
     background-position-x: center;
     background-position-y: center;
-    border-radius: 10px;
+    border-radius: 15px;
     float: left;
 }
 .sub-mdl-pj-4-2{
@@ -1286,7 +1286,7 @@ i:hover{
     background-size: 500px 300px;
     background-position-x: center;
     background-position-y: center;
-    border-radius: 10px;
+    border-radius: 15px;
     float: left;
 }
 /*@media login*/
