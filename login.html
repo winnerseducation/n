@@ -2,9 +2,18 @@
 <html>
     <meta charset="utf-8">
     <head>
+        <link rel="shortcut icon" href="img/logo-winners-icon.png" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <title>Login</title>
         <link rel="stylesheet" type="text/css" href="css.css">
+        <script type="text/javascript" src="script/jquery.js"></script>
+        <script type="text/javascript" src="script/acesso.js"></script>
+        <style>
+            .html,.body{
+                height: 100%;
+                width: 100%;
+            }
+        </style>
     </head>
     <body>
         <div id="total">
@@ -37,7 +46,6 @@
                                     <li class="item-s"><a href="cursos.html">Cursos WinnersPro</a></li>
                                 </ul>
                             </li>
-                            <li class="item-p"><a href="estude.html" class="lx">Seja um Winner</a></li>
                             <li class="item-p"><a href="contato.html" class="lx">Contato</a></li>
                             <li class="item-p-i"><a href="login.html">Portal do Aluno | EAD</a></li>
                         </ul>
@@ -55,16 +63,17 @@
                     <div id="form-login">
                         <div class="box-log">
                                 <h1 class="txt-signin">Entrar</h1>
-                                <form action="validacao.php" method="post">
+                                <form id="formularioLogin">
                                 <label for="txUsuario" class="txt-u">Usuário:</label><br>
-                                <input class="cx-user" type="text" name="usuario" id="txUsuario" maxlength="40" placeholder="seuemail@provedor.com" /><br><br>
+                                <input class="cx-user" type="text" name="email" id="email" maxlength="40" placeholder="seuemail@provedor.com" /><br><br>
                                 <label for="txSenha" class="txt-u">Senha:</label><br>
-                                <input class="cx-pass" type="password" name="senha" id="txSenha" maxlength="30"/><br><br>
+                                <input class="cx-pass" type="password" name="senha" id="senha" maxlength="30"/><br><br>
                                 
-                                <input class="btn-sub" type="submit" value="Entrar" />
+                                <button id="btnEntrar" class="btn-sub">Entrar</button>
                                 <h1 style="font-family: 'montserrat', sans-serif; font-size: 15px;">Novo aluno?<a href="cadastro.html"
                                     style="text-decoration: none; font-family: 'montserrat', sans-serif; color: rgb(0, 0, 200);">&nbsp;Cadastre-se</a></h1>
                             </form>
+                            <div id="mensagem" class="alert-text-error"></div>
                         </div>
                     </div>
                 </div>

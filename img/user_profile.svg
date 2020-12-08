@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="260mm" height="300mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 26000 30000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1473.76" y1="15002.93" x2="24512.57" y2="15002.93">
+   <stop offset="0" style="stop-opacity:1; stop-color:#0000C8"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#C80000"/>
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M5836.44 29502.92l14283.16 0c7776.81,0 4135.57,-16722.74 -2463.57,-14210.15 -4491.52,1710.12 -5307.34,1653.25 -9560.88,0 -6405.62,-2489.72 -9927.06,14210.15 -2258.71,14210.15zm6992.05 -28999.98c4015.22,0 7270.2,3180.23 7270.2,7103.24 0,3923.02 -3254.98,7103.24 -7270.2,7103.24 -4015.24,0 -7270.22,-3180.22 -7270.22,-7103.24 0,-3923.01 3254.98,-7103.24 7270.22,-7103.24zm-6992.05 27099.98l14283.16 0c530.75,0 1031.3,-115.05 1436.01,-473.91 1289.03,-1142.98 1149.84,-3928.32 831.81,-5439.53 -237.17,-1127.04 -672.56,-2312.58 -1322.79,-3269.1 -390.62,-574.61 -995.08,-1250.91 -1694.84,-1435.56 -355.75,-93.87 -697.17,-46.05 -1037.69,83.6 -4834.85,1840.84 -6129.62,1859.25 -10925.27,-4.71 -300.12,-116.65 -601.94,-164.23 -917.36,-84.02 -676.95,172.14 -1270.06,871.44 -1635.35,1428.07 -644.23,981.69 -1066.43,2199.71 -1287.44,3347.71 -288.84,1500.34 -394.28,4287.22 897.53,5401.61 390.2,336.61 865.87,445.84 1372.23,445.84zm6992.05 -25199.98c-2897.26,0 -5370.22,2264.33 -5370.22,5203.24 0,2938.92 2472.96,5203.24 5370.22,5203.24 2897.26,0 5370.2,-2264.33 5370.2,-5203.24 0,-2938.9 -2472.95,-5203.24 -5370.2,-5203.24z"/>
+ </g>
+</svg>

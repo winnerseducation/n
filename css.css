@@ -207,6 +207,7 @@ li.item-p-i:hover{
     padding: 7px;
     cursor: pointer;
     justify-content: center;
+    outline: none;
 }
 .btn-sub:hover{
     background-color: rgb(0, 200, 0);
@@ -234,7 +235,7 @@ li.item-p-i:hover{
 .cx-user:focus{
     width: 300px;
     border-bottom: 2px solid;
-    border-image-source: linear-gradient(45deg, rgb(0, 0, 200), rgb(200, 0, 0));
+    border-image-source: linear-gradient(45deg, rgb(0, 0, 200), rgb(255, 0, 0));
     border-image-slice: 1;
     box-shadow: 0px 0px 15px rgba(0, 0, 200, 0.1);
 }
@@ -251,7 +252,7 @@ li.item-p-i:hover{
 .cx-pass:focus{
     width: 300px;
     border-bottom: 2px solid;
-    border-image-source: linear-gradient(45deg, rgb(0, 0, 200), rgb(200, 0, 0));
+    border-image-source: linear-gradient(45deg, rgb(0, 0, 200), rgb(255, 0, 0));
     border-image-slice: 1;
     box-shadow: 0px 0px 15px rgba(0, 0, 200, 0.1);
 }
@@ -261,7 +262,17 @@ input:focus{
 .rest:focus{
     border-radius: 5px;
 }
-
+.alert-text-error{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(210, 0, 0);
+    text-align: center;
+    padding: 5px 2px 2px 2px;
+    font-family: 'Montserrat';
+    color: white;
+    border-radius: 5px;
+    display: none;
+}
 /*MAP*/
 .contato-form{
     width: 100%;
@@ -446,7 +457,7 @@ textarea:focus{
 .img-box-2{
     width: 100%;
     height: 100%;
-    background-image: url(img/infoimage.png);
+    background-image: url(img/banner-winners.svg);
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -462,7 +473,7 @@ textarea:focus{
 .img-box-4{
     width: 100%;
     height: 100%;
-    background-image: url(img/banner-lang.png);
+    background-image: url(img/infoimage.png);
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -484,7 +495,7 @@ textarea:focus{
     text-shadow: 0px 0px 15px rgb(119, 119, 119);
 }
 .slide:hover + .nav label {opacity: 0.5;} .nav label:hover {opacity: 1;}.nav .next {right: 0;} 
-input:checked + .slide-container  .slide {opacity: 1;} 
+input:checked + .slide-container  .slide {opacity: 1; } 
 input:checked + .slide-container .nav label {display: block;}
 .nav-dots {
     width: 100%;
@@ -562,7 +573,16 @@ input#img-3:checked ~ .nav-dots label#img-dot-3{
     text-align: justify;
     color: rgb(255, 255, 255);
     line-height: 27px;
+    margin:0;
 }
+.sub-mdl-2-1 p a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(50, 50, 50);
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+}
+.sub-mdl-2-1 p a:hover{background-color: rgb(200, 0, 0);}
 /*HMODULE 3*/
 .module-3{
     background-color: rgb(255, 255, 255);
@@ -695,9 +715,9 @@ i:hover{
 .div-sobre{
     width: 100%;
     height: auto;
-    background-image: url(img/logo-winners-low-2.png);
+    background-image: url(img/logo-winners-low-2.svg);
     background-size: cover;
-    background-position-x: -700px;
+    background-position-x: center;
     background-position-y: center;
     display: flex;
     flex-direction: row;
@@ -790,6 +810,10 @@ i:hover{
     width: 300px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
     border: 5px solid rgb(255, 255, 255);
+}
+.content p{
+    padding: 0px 8.8px 0px 8.8px;
+    margin: 0;
 }
 @media screen and (max-width: 600px) {
     .timeline::after {
@@ -956,7 +980,7 @@ i:hover{
 .sub-mdl-ef2-s-2{
     width: 50%;
     height: 100%;
-    background-image: url(img/ef2-photo.jpg);
+    background-image: url(img/foto_ef.png);
     background-size: 500px 300px;
     background-size: cover;
     background-position-x: center;
@@ -1031,7 +1055,7 @@ i:hover{
 .sub-mdl-em-s-2{
     width: 50%;
     height: 100%;
-    background-image: url(img/em-photo-2.jpg);
+    background-image: url(img/foto_em.jpg);
     background-size: cover;
     background-position-x: center;
     background-position-y: 376px;
@@ -1289,6 +1313,131 @@ i:hover{
     border-radius: 15px;
     float: left;
 }
+
+/*TECNOLOGIA*/
+
+.module-tec-1,.module-tec-3{
+    background-color: #ffffff;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.align-sub-mdl-tec-1,.align-sub-mdl-tec-3{
+    width: 95%;
+    height: 87.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.sub-mdl-tec-1-1,.sub-mdl-tec-3-1{
+    width: 50%;
+    height: 100%;
+}
+.sub-mdl-tec-1-1 h1,.sub-mdl-tec-3-1 h1{
+    font-family: 'montserrat', sans-serif;
+    padding: 15px 58px 15px 58px;
+    font-size: 16pt;
+    text-align: left;
+    color: #ffffff;
+}
+.sub-mdl-tec-1-1 h1::before{bottom: -1rem;left: 0;content: "";width: 65px;height: 2px;background-color: #8c00ff;display: inline-block;position: relative;margin-right: -67px;}
+.sub-mdl-tec-3-1 h1::before{bottom: -1rem;left: 0;content: "";width: 65px;height: 2px;background-color: #be9800;display: inline-block;position: relative;margin-right: -67px;}
+.sub-mdl-tec-1-1 p,.sub-mdl-tec-3-1 p{
+    font-family: 'montserrat', sans-serif;
+    padding: 0px 58px 0px 58px;
+    font-size: 14pt;
+    text-align: justify;
+    color: #ffffff;
+    line-height: 23px;
+}
+.sub-mdl-tec-1-2{
+    width: 50%;
+    height: 100%;
+    background-image: url(img/googleforeducation.svg);
+    background-size: 500px 300px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 15px;
+}
+.sub-mdl-tec-3-2{
+    width: 50%;
+    height: 100%;
+    background-image: url(img/olim-winners.svg);
+    background-size: 500px 350px;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 15px;
+}
+.module-tec-2,.module-tec-4{
+    background-color: #ffffff;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.align-sub-mdl-tec-2,.align-sub-mdl-tec-4{
+    width: 95%;
+    height: 87.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+}
+.sub-mdl-tec-2-1,.sub-mdl-tec-4-1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.sub-mdl-tec-2-1 h1,.sub-mdl-tec-4-1 h1{
+    font-family: 'montserrat', sans-serif;
+    padding: 15px 58px 15px 58px;
+    font-size: 16pt;
+    text-align: left;
+    color: #000000;
+}
+.sub-mdl-tec-2-1 h1::before{bottom: -1rem;left: 0;content: "";width: 65px;height: 2px;background-color: rgb(255, 0, 0);display: inline-block;position: relative;margin-right: -67px;}
+.sub-mdl-tec-4-1 h1::before{bottom: -1rem;left: 0;content: "";width: 65px;height: 2px;background-color: rgb(0, 0, 200);display: inline-block;position: relative;margin-right: -67px;}
+.sub-mdl-tec-2-1 p,.sub-mdl-tec-4-1 p{
+    font-family: 'montserrat', sans-serif;
+    padding: 0px 58px 0px 58px;
+    font-size: 14pt;
+    text-align: justify;
+    color: #000000;
+    line-height: 23px;
+}
+.sub-mdl-tec-2-2{
+    width: 50%;
+    height: 100%;
+    background-image: url(img/projeto-uerj.svg);
+    background-size: 500px 300px;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 15px;
+    float: left;
+}
+.sub-mdl-tec-4-2{
+    width: 50%;
+    height: 100%;
+    background-image: url(img/projeto-enem.svg);
+    background-size: 500px 300px;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 15px;
+    float: left;
+}
+
+
 /*@media login*/
 /*media in 100% on config and F11 option*/
 @media (height: 667px){div#all-form{height: 587px;}}
